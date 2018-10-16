@@ -34,3 +34,5 @@
       The above code before any program is used for security i.e. it doesn't allow import modules from this program. 
       A built-in variable __name__ stores the name of the file as main. If the someother file is runnig, it becomes main and this file becomes sub.
       So the name is not main and the above code will not be executed.
+
+9. _ is used to store the last value that was used without assigning a variable in python shell.
