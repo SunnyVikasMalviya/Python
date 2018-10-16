@@ -1,0 +1,36 @@
+1. // operator is used for integral division i.e. the result will omit the floating values.
+
+2. Doc-String is a comment that describes the use of a particular piece or part of a program.
+  eg. def function_name(arguments) :
+          """
+          This comment is a docstring, and it should describe what this function does.
+          """
+          help(function_name)
+   When we use help() over some function, it displays what that function does. But essentially what is happening is, the help function 
+   displays the doc-string of the function.
+   
+3. Tags are variable that are common to all the objects of a class i.e. variables whose values are same for all the objects unless you change it.
+ Tags are used to count the number of objects created for a class.
+  eg. class class_name:
+        tag=0
+          def __init__(self):
+              tag+=1
+      
+      print(class_name.tag)     
+    The above program can count the number of objects for a class created and will display it.
+    
+4. dir(object_name) is used over objects to return a list of all the functions and variable associated with that object.
+
+5. \ is used to represent the continuation of a statement in python.
+
+6. Function with names like __name__() are special built-in functions.
+
+7. A single underscore is added before the name of a function to make it private.
+ eg. _func() is a private function.
+
+8. if __name__=='main' :
+      #whole program here
+      
+      The above code before any program is used for security i.e. it doesn't allow import modules from this program. 
+      A built-in variable __name__ stores the name of the file as main. If the someother file is runnig, it becomes main and this file becomes sub.
+      So the name is not main and the above code will not be executed.
