@@ -36,3 +36,6 @@
       So the name is not main and the above code will not be executed.
 
 9. _ is used to store the last value that was used without assigning a variable in python shell.
+
+10. print ("Time now at greenwich meridian is : ", end = "")
+  The end=' ' is just to say that you want a space after the end of the statement instead of a new line character. In Python 2.x you would have to do this by placing a comma at the end of the print statement. The end parameter means that the line gets ' ' at the end rather than a newline character.
