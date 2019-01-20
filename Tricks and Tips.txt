@@ -39,3 +39,9 @@
 
 10. print ("Time now at greenwich meridian is : ", end = "")
   The end=' ' is just to say that you want a space after the end of the statement instead of a new line character. In Python 2.x you would have to do this by placing a comma at the end of the print statement. The end parameter means that the line gets ' ' at the end rather than a newline character.
+  
+11. We can open any kind of file through python provided that we have an default application installed in our os to open such files.
+ code:  import os
+        os.system("start filepath/filename.extension")
+        
+    Save and run the above code to open the file.
