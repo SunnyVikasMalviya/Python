@@ -45,3 +45,6 @@
         os.system("start filepath/filename.extension")
         
     Save and run the above code to open the file.
+    
+12. string.ascii_letters    
+The above line returns a list of all the small and capital alphabets.
