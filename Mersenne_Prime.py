@@ -15,10 +15,10 @@ def Mersenne_prime(n):
     return lst
 
 #For Debugging
-try :
-    print(Mersenne_prime(int(input())))
-except ValueError :
-    print("Enter Positive Integers Only")
+#try :
+#    print(Mersenne_prime(int(input())))
+#except ValueError :
+#    print("Enter Positive Integers Only")
 
 """
 INPUT
