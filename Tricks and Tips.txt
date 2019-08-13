@@ -3,7 +3,14 @@ Good Practices
 1. Using Global variables and constantly trying to manipulate it by passing it to a function as an argument is a better way of using variables.
 Otherwise the problem of mutability of variables arise. Look at point number 13 in Tricks.
 
+2. Writing doc-strings for the functions that you write.
 
+3. Use of Don't Repeat Yourself (DRY) way of programming.
+
+4. Use of {} in print statements.
+  eg :a = 10
+      b = 5
+      print("a:{} b:{}".format(a, b))
 
 
 Tricks
@@ -92,6 +99,26 @@ The above line returns a list of all the small and capital alphabets.
 16. Although python doesn't need parenthesis while using loops or if statements, the use of parenthesis doesn't lead into error 
   except for the for loops.
 
-
+17. For printing the outputs in a single line, assign nothing or '' to the end parameter in the print statement.
+  eg :for x in range(5) : 
+       print(x, end = '')
+       
+       '''
+       OUTPUT
+       
+       01234
+       Rather than
+       0
+       1
+       2
+       3
+       4
+       '''
+       
+18. The range function returns a list. For example range(3) returns [0, 1, 2]. You can use reversed(range(3)) to move through the 
+   list in reverse order when using for loops.
+       
+19. For an equation given in string format like eqn = '5 * 3 / (4 * 12)', you can use eval(eqn) to get the result directly rather than
+  writing code to find the result in some other way.
 
 
