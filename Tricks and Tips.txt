@@ -83,6 +83,14 @@ The above line returns a list of all the small and capital alphabets.
     Files in 'C:\Users\Sunny\AppData\Local\Programs\Python\Python36' : '['DLLs', 'Doc', 'include', 'input', 'Lib', 'libs', 'LICENSE.txt', 'NEWS.txt', 'python.exe', 'python3.dll', 'python36.dll', 'pythonw.exe', 'Scripts', 'share', 'tcl', 'Tools', 'vcruntime140.dll']'
     """
   
+15. Rather than commenting the debugging lines in a file that uses don't repeat yourself(DRY) doctrine, we can use 
+  if __name__ == '__main__':
+    pass          #And write our debugging codes here
+  The debugging code will not run unless the file is the main file and hence when a function from this file is called, only the
+  function runs.
+  
+16. Although python doesn't need parenthesis while using loops or if statements, the use of parenthesis doesn't lead into error 
+  except for the for loops.
 
 
 
