@@ -2,7 +2,7 @@ import bs4 as bs
 import urllib.request
 
 #Loading the source code and the soup
-source = urllib.request("c").read()
+source = urllib.request("https://pythonprogramming.net/parsememcparseface/").read()
 soup = bs.BeautifulSoup(source, 'lxml')
 
 '''
@@ -38,7 +38,7 @@ class Client(QWebPage):
         self.app.quit()
 
 
-url = 'http://pythonprogramming.net/parsememeparseface/'
+url = 'https://pythonprogramming.net/parsememcparseface/'
 client_response = Client(url)
 source = client_response.mainFrame().toHtml()
 soup = bs.BeautifulSoup(source, 'lxml')
