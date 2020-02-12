@@ -6,7 +6,7 @@ import urllib.request
 #Read the source code of the online page
 #The sauce is just the messy source code of the page with all the \n, \t and
 #many other extra things present in it.
-sauce = urllib.request.urlopen('https://pythonprogramming.net/parsememeparseface/').read()
+sauce = urllib.request.urlopen('https://pythonprogramming.net/parsememcparseface/').read()
 #print(sauce)
 
 
