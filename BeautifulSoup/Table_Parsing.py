@@ -1,7 +1,7 @@
 import bs4 as bs
 import urllib.request
 
-sauce = urllib.request('https://pythonprogramming.net/parsememeparseface/').read()
+sauce = urllib.request('https://pythonprogramming.net/parsememcparseface/').read()
 soup = BeautifulSoup(sauce, 'lxml')
 
 '''PARSING TABLES'''
@@ -26,7 +26,7 @@ import pandas as pd
 
 #read_html() automatically finds all the tables on the webpage and makes a list
 #of all the different tables or dataframes present on the table.
-dfs = pd.read_html('https://pythonprogramming.net/parsememeparseface/', header=0)
+dfs = pd.read_html('https://pythonprogramming.net/parsememcparseface/', header=0)
 #Printing dataframes
 for df in dfs:
     print(df)
