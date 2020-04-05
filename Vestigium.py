@@ -1,3 +1,6 @@
+'''
+Google Code Jam 2020 Qualification Round 1st Question 
+'''
 class mat(object):
     def __init__(self, n, arr):
         self.n = n
