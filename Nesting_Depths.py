@@ -1,3 +1,7 @@
+'''
+Code Jam 2020 Qualification Round 2nd Question Solution
+'''
+
 class Nesting_Depth(object):
     def __init__(self, S):
         self.S = S
